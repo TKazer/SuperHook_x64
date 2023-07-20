@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="SuperHook">
+      <UniqueIdentifier>{cf29d6b0-374b-4d5b-aa89-eb66eab384a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="demo">
+      <UniqueIdentifier>{6f4e0744-ee1b-40ec-a67a-0f42af349d19}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>demo</Filter>
+    </ClCompile>
+    <ClCompile Include="SuperHook.cpp">
+      <Filter>SuperHook</Filter>
+    </ClCompile>
+    <ClCompile Include="BytesManager.cpp">
+      <Filter>SuperHook</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SuperHook.h">
+      <Filter>SuperHook</Filter>
+    </ClInclude>
+    <ClInclude Include="BytesManager.h">
+      <Filter>SuperHook</Filter>
+    </ClInclude>
+    <ClInclude Include="ProcessManager.hpp">
+      <Filter>demo</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
